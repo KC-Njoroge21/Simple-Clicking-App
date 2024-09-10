@@ -1,12 +1,18 @@
 .square {
-  background-color: pink;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
   width: 70px;
   height: 70px;
-  margin-inline: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+ 
 
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+  gap: 10px;
   margin-inline: 2px;
 }

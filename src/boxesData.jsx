@@ -94,13 +94,5 @@ export default [
 {
   id: 24,
   on: true
-},   
-{
-  id: 25,
-  on: false
-},   
-{
-  id: 26,
-  on: false
-},   
+},      
 ]
