@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react"
+import Boxes from "./Boxes"
+import boxesData from "./boxesData"
 
 function App() {
-  const [count, setCount] = useState(0)
+  return (
+    <div>
+      <Boxes />
+    </div>
+  )
 
- 
 }
 
 export default App
